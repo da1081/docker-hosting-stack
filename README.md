@@ -212,7 +212,7 @@ services:
       # Exclude from watchtower automatic updates.
       - "com.centurylinklabs.watchtower.enable=false"
 
-registry:
+  registry:
     image: registry:latest
     container_name: registry
     restart: unless-stopped
