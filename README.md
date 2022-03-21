@@ -5,6 +5,8 @@ A guide made initially for my own sake, but I refined it a bit (a lot) so that i
 
 Shows step by step a possible way to setup and configure a lean mean hosting machine.
 
+*(takes ~10 minutes to complete on a fresh Hetzner machine running Ubuntu 20.04)*
+
 ### Stack:
 - **Traefik** - reverse proxy with dashboard protected by optional basic-auth and/or ip-whitelist.
 - **Portainer** - container manager with optional ip-whitelist.
